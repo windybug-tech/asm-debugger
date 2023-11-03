@@ -74,10 +74,6 @@ def main():
     arg = parser()
 
     # x64-based shellcode - Launches MessageBoxA prompt
-    # Offsets:
-    # PEB -> 0x60, _PEB_LDR_DATA -> 0x18
-    # InLoadOrderModuleList -> 0x10, InMemoryOrderModuleList -> 0x20, InInitializationOrderModuleList -> 0x30
-    # DllBase -> 0x30, DllName ->0x48
     CODE = (
         b"  start:                                 "
         b"    push rbp                            ;"
