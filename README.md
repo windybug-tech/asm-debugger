@@ -1,5 +1,5 @@
 # wandering-angel
-A simple Python script to generate and debug shellcode. Shellcode in script will call MessageBoxA.
+A simple Python script to debug and print (C-style) shellcode. Shellcode in script will call MessageBoxA.
 
 # Usage
 usage: wandering_angel.py [-d] [-p]\
