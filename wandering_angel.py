@@ -22,7 +22,7 @@ def printShellcode(enc):
 
     for i in enc:
         if (newlineCheck % 10 == 0):
-            printShellcode += "0x{0:02x}".format(int(i)).rstrip("\n")
+            printShellcode += "0x{0:02x},".format(int(i)).rstrip("\n")
             printShellcode += "\n\t"
             newlineCheck = 1
 
