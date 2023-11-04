@@ -1,8 +1,8 @@
-# wandering-angel
+# asm-debugger
 A simple Python script to debug and print (C-style) shellcode. Shellcode in script will call MessageBoxA.
 
 # Usage
-usage: wandering_angel.py [-d] [-p]
+usage: asm-debugger.py [-d] [-p]
 
 options:\
 &nbsp;&nbsp;&nbsp;&nbsp;-d, --debug - Prompts user before shellcode execution. allows for debugger attachment.\
